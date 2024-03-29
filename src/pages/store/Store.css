@@ -1,0 +1,153 @@
+.store-all {
+  padding-top: 50px;
+  background-color: #f5f5f7;
+}
+
+.store-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 40px;
+}
+
+.store-per {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.store-per-1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.store-per-1 img {
+  width: 40px;
+}
+
+.store-per-1 svg {
+  font-size: 40px;
+}
+
+.store-top p {
+  font-size: 40px;
+  max-width: 550px;
+  color: grey;
+}
+
+.store-top p span {
+  color: black;
+  font-weight: 600;
+}
+
+.store-per-1-1 h3 {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.store-per-1-1 h4 {
+  font-weight: 400;
+  color: #0077ed;
+  font-size: 15px;
+}
+
+.store-per-1-1 h4:hover {
+  text-decoration: underline;
+}
+
+.store-map {
+  display: flex;
+  gap: 10px;
+  padding: 80px 0;
+}
+
+.store-item img {
+  width: 150px;
+}
+
+.store-item {
+  text-align: center;
+}
+
+.store-item h2 {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.store-bottom {
+  padding: 0 30px;
+}
+
+.store-bottom-p {
+  font-size: 40px;
+  max-width: 550px;
+  color: grey;
+}
+
+.store-bottom-p span {
+  color: black;
+  font-weight: 600;
+}
+
+.store-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap: 20px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.store-card {
+  width: 400px;
+  height: 500px;
+  background-image: url(../../assets/images/store-card-11.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 20px;
+  border-radius: 40px;
+  transition: 0.5s;
+}
+
+.store-card-1 {
+  width: 400px;
+  height: 500px;
+  background-image: url(../../assets/images/store-card-12.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 20px;
+  color: white;
+  border-radius: 40px;
+  transition: 0.5s;
+}
+
+.store-card-2 {
+  width: 400px;
+  height: 500px;
+  background-image: url(../../assets/images/store-card-13.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 20px;
+  color: black;
+  border-radius: 40px;
+  transition: 0.5s;
+}
+
+.store-card p,
+.store-card-2 p,
+.store-card-1 p {
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.store-card:hover,
+.store-card-1:hover,
+.store-card-2:hover {
+  transform: scale(1.02);
+}

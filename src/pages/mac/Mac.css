@@ -1,0 +1,84 @@
+.mac {
+  background-color: #f5f5f7;
+}
+
+.mac-all {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.mac-item img {
+  width: 80px;
+  height: 80px;
+}
+
+.mac-item p {
+  text-align: center;
+  cursor: pointer;
+}
+
+.mac-item p:hover {
+  color: blue;
+}
+
+.mac-p {
+  text-align: center;
+  background-color: #efefef;
+}
+
+.mac-p span {
+  color: blue;
+  cursor: pointer;
+}
+
+.mac-p span:hover {
+  text-decoration: underline;
+}
+
+.mac-title {
+  background-color: white;
+  padding: 50px 0;
+}
+
+.mac-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mac-info h1 {
+  font-size: 60px;
+}
+
+.mac-info h2 {
+  font-size: 45px;
+}
+
+.mac-center {
+  height: 800px;
+  background-image: url(../../assets/images/mac.jpg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.mac-center-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 80px;
+}
+
+.mac-center-info h1 {
+  font-size: 60px;
+}
+
+.mac-center-info p {
+  font-size: 45px;
+  padding-bottom: 20px;
+}

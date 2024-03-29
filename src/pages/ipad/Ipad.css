@@ -1,0 +1,89 @@
+.ipad {
+  background-color: black;
+}
+
+.ipad-all {
+  display: flex;
+  align-items: center;
+}
+
+.ipad-right {
+  width: 70%;
+}
+
+.ipad-left {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.ipad-left h1 {
+  font-size: 65px;
+  text-align: center;
+}
+
+.ipad-left h2 {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  justify-content: center;
+}
+
+.ipad-left h2 img {
+  width: 60px;
+}
+
+.ipad-left h3 {
+  font-size: 25px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.ipad-left a {
+  color: blue;
+  text-decoration: none;
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+.ipad-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.ipad-item img {
+  width: 60px;
+  height: 60px;
+}
+
+.ipad-item p {
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.ipad-item p:hover {
+  color: blue;
+}
+
+.ipad-p {
+  background-color: rgb(35, 35, 35);
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+  padding: 10px;
+}
+
+.ipad-p span {
+  color: blue;
+  cursor: pointer;
+}
+
+.ipad-p span:hover {
+  text-decoration: underline;
+}

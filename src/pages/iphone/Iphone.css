@@ -1,0 +1,66 @@
+.iphone {
+  background-color: #f5f5f7;
+}
+
+.iphone-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.iphone-item img {
+  width: 60px;
+  height: 60px;
+}
+
+.iphone-item p {
+  text-align: center;
+  cursor: pointer;
+}
+
+.iphone-item p:hover {
+  color: blue;
+}
+
+.iphone-p {
+  background-color: #e0e0e0;
+  text-align: center;
+  padding: 10px;
+}
+
+.iphone-p span {
+  color: blue;
+  cursor: pointer;
+}
+
+.iphone-p span:hover {
+  text-decoration: underline;
+}
+
+.iphone-title {
+  background-color: white;
+  padding: 80px 0;
+}
+
+.iphone-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.iphone-info h1 {
+  font-size: 60px;
+}
+
+.iphone-info h2 {
+  font-size: 35px;
+}
+
+.iphone-banner {
+  background-image: url(../../assets/images/iphone15.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
